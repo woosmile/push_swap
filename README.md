@@ -74,19 +74,19 @@
 - 문자 성분으로 된 인자들을 숫자로 바꾸고 양방향 연결 리스트로 만들어주는 함수
 - 최종적으로 숫자값이 저장된 배열을 확인하면서 양방향 연결 리스트로 만들어줌
 
-### argv_counter
+#### argv_counter
 
 - 인자들의 개수를 세어줌 (split에서 사용하던 방식 재활용)
 
-### argv_to_number
+#### argv_to_number
 
 - 문자로된 인자를 숫자로 바꿔주고 int 배열에 할당함 (ft_atoi 인데 int가 아닌 long으로 처리하고 반환함)
 
-### free_av_arr
+#### free_av_arr
 - ft_split을 통해 구분자인 스페이스로 나누어진 문자배열을 초기화하는 함수
 
 
-### initial_stack
+#### initial_stack
 
 - 양방향 연결 리스트의 head와 tail을 확인하여 t_stack 구조체 a의 top, bot에 주소값과 a의 사이즈를 할당하고 b의 사이즈를 0으로 초기화함
 
