@@ -17,9 +17,9 @@
     ```
     typedef struct s_node
     {
-    	int				num;
-    	struct s_node	*next;
-    	struct s_node	*prev;
+    	int    num;
+    	struct s_node    *next;
+    	struct s_node    *prev;
     }	t_node;
     ```
     
@@ -28,7 +28,7 @@
     ```
     typedef struct s_stack
     {
-    	int		size;
+    	int    size;
     	t_node	*top;
     	t_node	*bot;
     }	t_stack;
@@ -39,8 +39,8 @@
     ```
     typedef struct s_lis
     {
-    	int	*arr;
-    	int	length;
+    	int *arr;
+    	int length;
     }	t_lis;
     ```
     
@@ -109,7 +109,7 @@
     - 가장 적은 회전수를 가지는 노드를 구할 때, 중간 위치를 기준으로 앞에 있으면 ra, 뒤에 있으면 rra 를 할지 고려해야 하고 rrr, rr도 같이 할 수 있는지 추가적으로 고려해주면 더 적은 명령어를 사용할 수 있음
 - align_a : 최소값의 위치를 찾고 ra 또는 rra로 최소값을 top으로 옮겨줘서 정렬을 마침
 
-## 함수 설명 (Bonus : Checker)
+## 함수 설명 (Bonus Part: Checker)
 
 - 전처리는 mandatory와 같음
 - 다만 get_next_line과 같이 read 함수가 사용되었고 잘못된 명령어가 들어오면 Error 표시 후 프로그램을 종료하는 과정이 다름
