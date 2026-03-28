@@ -1,0 +1,13 @@
+# Binaries
+/push_swap
+/checker
+
+# Object files
+**/*.o
+
+# Library files
+libft/libft.a
+
+# Temp files
+.DS_Store
+*.swp
